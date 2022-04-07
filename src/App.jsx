@@ -27,7 +27,7 @@ function App() {
       .then(() => console.log("email sent"))
   }
 
-  const hndleRegisterd = event => {
+  const hndleRegisterd = () => {
     setRegisterd(!registerd)
   }
 
