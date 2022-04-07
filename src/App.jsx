@@ -14,7 +14,6 @@ function App() {
   const [email, setEmail] = useState('');
   const [pass, setPass] = useState('');
 
-
   const emailHndle = event => {
     setEmail(event.target.value);
   }
@@ -44,8 +43,6 @@ function App() {
       setErr("Please Enter Atlast 2 digit")
       return;
     }
-
-
 
     if (registerd) {
       signInWithEmailAndPassword(auth, email, pass)
