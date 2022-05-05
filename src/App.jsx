@@ -6,6 +6,7 @@ import { createUserWithEmailAndPassword, getAuth, sendEmailVerification, sendPas
 import app from './firebase.init'
 
 const auth = getAuth(app);
+
 function App() {
   const [validated, setValidated] = useState(false);
   let [registerd, setRegisterd] = useState(false)
