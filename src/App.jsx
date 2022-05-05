@@ -79,7 +79,6 @@ function App() {
             Please provide a valid email.
           </Form.Control.Feedback>
         </Form.Group>
-
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
           <Form.Control onBlur={passHndle} type="password" placeholder="Password" required />
